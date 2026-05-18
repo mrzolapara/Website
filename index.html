@@ -1,334 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manan Gajjar - Research Analyst</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Manan Gajjar | Consumer & Market Insights Professional</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fb;
+      color: #111827;
+    }
+
+    .glass-card {
+      background: rgba(255,255,255,0.82);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255,255,255,0.6);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    }
+
+    .transition-custom {
+      transition: all 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, #2563eb, #7c3aed);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-blur {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background: rgba(37, 99, 235, 0.15);
+      filter: blur(90px);
+      z-index: 0;
+    }
+
+    .hero-blur-2 {
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      background: rgba(124, 58, 237, 0.15);
+      filter: blur(90px);
+      z-index: 0;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
-<body class="antialiased">
-    <div class="container mx-auto p-4 md:p-8">
 
-        <!-- Profile Header Section -->
-        <div id="profile-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-6">
-            <div class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-8">
-                <div class="relative w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-md group">
-                    <!-- Replace the placeholder image URL with your own profile picture -->
-                    <img id="profile-image" src="https://avatars.githubusercontent.com/u/65644227?v=4?s=400" alt="Profile Picture" class="w-full h-full object-cover">
-                </div>
-                <div class="text-center md:text-left">
-                    <h1 id="name" class="text-3xl md:text-4xl font-bold text-gray-800 mb-1">Manan Gajjar</h1>
-                    <p id="title" class="text-lg md:text-xl font-medium text-gray-600 mb-2">Research Analyst</p>
-                    <p id="location" class="text-sm text-gray-500">Ahmedabad, GJ (India)</p>
-                    <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-3">
-                        <a href="mailto:mrzolapara@gmail.com" class="bg-blue-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-700 transition-colors">Email Me</a>
-                        <a href="https://drive.google.com/file/d/1Nr7IiLDewzySfD9jGUion2fv6yYhpCyQ/view?usp=sharing" class="bg-gray-200 text-gray-800 px-5 py-2 rounded-full font-semibold hover:bg-gray-300 transition-colors">Download Resume</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body>
 
-        <!-- About Section -->
-        <div id="about-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-6">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">About</h2>
-            <p id="about-text" class="text-gray-700 leading-relaxed">
-                A skilled Research Analyst with a strong background in both quantitative and qualitative research methodologies. Experienced in managing the full project lifecycle, from study design to client-ready reports. Proficient in data analysis, visualization, and interpretation using tools like SPSS, Power BI, Microsoft Excel, and Microsoft PowerPoint. A proactive team player with a focus on delivering actionable insights and clear communication.
+  <div class="max-w-7xl mx-auto px-5 md:px-10 py-8">
+
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden rounded-[36px] glass-card p-8 md:p-14 mb-10">
+
+      <div class="hero-blur top-0 left-0"></div>
+      <div class="hero-blur-2 bottom-0 right-0"></div>
+
+      <div class="relative z-10 grid lg:grid-cols-2 gap-16 items-center">
+
+        <!-- LEFT -->
+        <div>
+
+          <p class="uppercase tracking-[0.2em] text-sm text-blue-600 font-semibold mb-5">
+            Consumer Insights • Market Research • Analytics
+          </p>
+
+          <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+            Manan <span class="gradient-text">Gajjar</span>
+          </h1>
+
+          <p class="text-lg md:text-xl text-gray-600 leading-relaxed mb-6">
+            Driving customer and market insight generation through end-to-end quantitative research, AI-native analytics platforms, stakeholder storytelling, and strategic data interpretation.
+          </p>
+
+          <!-- STATUS BADGE -->
+          <div class="inline-flex items-center gap-2 bg-white px-5 py-3 rounded-full shadow-sm border border-gray-100 mb-10">
+
+            <div class="w-2 h-2 rounded-full bg-green-500"></div>
+
+            <p class="text-sm text-gray-600">
+              Currently working on AI-native market research projects with Knit
             </p>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex flex-wrap gap-4 mb-10">
+
+            <a href="#portfolio"
+               class="bg-gray-900 text-white px-7 py-4 rounded-2xl font-semibold hover:scale-105 transition-custom">
+               View Portfolio
+            </a>
+
+            <a href="https://drive.google.com/file/d/1CMjg7DL3lTBSUZeinwv93H47bToWlw0M/view?usp=sharing"
+               target="_blank"
+               class="bg-white text-gray-900 border border-gray-200 px-7 py-4 rounded-2xl font-semibold hover:bg-gray-100 transition-custom">
+               Download Resume
+            </a>
+
+            <a href="https://www.linkedin.com/in/mrzolapara/"
+               target="_blank"
+               class="bg-[#0A66C2] text-white px-7 py-4 rounded-2xl font-semibold hover:opacity-90 transition-custom">
+               LinkedIn
+            </a>
+
+          </div>
+
+          <!-- STATS -->
+          <div class="grid grid-cols-3 gap-4 max-w-2xl">
+
+            <div class="glass-card rounded-2xl p-4">
+              <h3 class="text-2xl font-bold">5+</h3>
+              <p class="text-sm text-gray-500 mt-1">Years Experience</p>
+            </div>
+
+            <div class="glass-card rounded-2xl p-4">
+              <h3 class="text-2xl font-bold">E2E</h3>
+              <p class="text-sm text-gray-500 mt-1">Research Lifecycle</p>
+            </div>
+
+            <div class="glass-card rounded-2xl p-4">
+              <h3 class="text-2xl font-bold">AI</h3>
+              <p class="text-sm text-gray-500 mt-1">Native Research Exposure</p>
+            </div>
+
+          </div>
+
         </div>
 
-<!-- Portfolio Section -->
-<div id="portfolio-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-6">
-  <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Portfolio</h2>
+        <!-- RIGHT -->
+        <div class="hidden lg:flex justify-center">
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="relative">
 
-   <!-- Portfolio Card : Starbucks CSAT Survey -->
-<div class="border rounded-xl overflow-hidden hover:shadow-lg transition bg-white">
+            <div class="absolute -top-5 -right-5 w-full h-full rounded-[32px] bg-gradient-to-br from-blue-100 to-purple-100"></div>
 
-  <!-- PDF Cover Preview -->
-  <a href="https://drive.google.com/file/d/18cCI8KScGKVH6_y9wqfz3x-VGZwWsg3K/view?usp=sharing"
-     target="_blank"
-     class="relative block group">
+            <img
+              src="https://avatars.githubusercontent.com/u/65644227?v=4?s=400"
+              alt="Manan Gajjar"
+              class="relative w-[380px] h-[470px] object-cover rounded-[32px] shadow-2xl border border-white"
+            >
 
-    <img src="starbucks-csat-cover.jpg"
-         alt="Starbucks CSAT Survey Report Cover"
-         class="w-full h-56 object-cover">
+            <div class="absolute -bottom-6 -left-6 glass-card rounded-3xl px-6 py-5">
 
-    <!-- Hover Overlay -->
-    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition flex items-center justify-center">
-      <span class="text-white text-sm font-semibold opacity-0 group-hover:opacity-100 transition">
-        View Full Report →
-      </span>
-    </div>
-  </a>
+              <p class="text-sm text-gray-500 mb-1">
+                Specialized In
+              </p>
 
-  <!-- Content -->
-  <div class="p-5">
+              <h4 class="font-bold text-lg">
+                Consumer & Market Insights
+              </h4>
 
-    <h3 class="text-xl font-semibold text-gray-800 mb-1">
-      Starbucks Customer Satisfaction (CSAT) Survey
-    </h3>
-
-    <p class="text-sm text-gray-500 mb-3">
-      Food & Beverage (QSR) | Consumer Research | Malaysia
-    </p>
-
-    <ul class="text-gray-700 text-sm space-y-1 mb-4">
-      <li><strong>Objective:</strong> Understand customer buying behavior, satisfaction drivers, and revisit intent.</li>
-
-      <li><strong>Methodology:</strong> Structured quantitative survey covering demographics, visit behavior, spend, promotions, and in-store experience.</li>
-
-      <li><strong>Sample:</strong> N = 122 respondents</li>
-
-      <li><strong>Tools Used:</strong> Microsoft Excel, Microsoft PowerPoint, Statistical Analysis</li>
-
-      <li>
-        <strong>Key Insights:</strong>
-        <ul class="list-disc list-inside ml-4 mt-1 space-y-1">
-          <li>70% customers aged 20–29; majority earn &lt; RM 25,000</li>
-          <li>Most visits are rare and under 30 minutes</li>
-          <li>77% intent to repurchase; coffee & cold drinks dominate</li>
-          <li>Price sensitivity drives churn</li>
-          <li>Social media is the strongest promo channel (73%)</li>
-        </ul>
-      </li>
-    </ul>
-
-    <!-- CTA -->
-    <div class="flex gap-4">
-      <a href="https://drive.google.com/file/d/18cCI8KScGKVH6_y9wqfz3x-VGZwWsg3K/view?usp=sharing"
-         target="_blank"
-         class="text-blue-600 font-medium hover:underline">
-        View Full PDF
-      </a>
-    </div>
-
-  </div>
-</div>
-
-
-
-  </div>
-</div>
-
-        
-        <!-- Experience Section -->
-        <div id="experience-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-6">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Experience</h2>
-            
-            <!-- Experience Item 1: Inginit Technology -->
-            <div class="experience-item border-b border-gray-200 pb-6 mb-6 last:border-b-0 last:pb-0 last:mb-0">
-                <div class="flex items-start space-x-4 mb-2">
-                    <div class="relative group">
-                        <!-- Replace the placeholder image URL with the company logo -->
-                        <img class="company-logo rounded-full w-10 h-10" src="https://media.licdn.com/dms/image/v2/C4D0BAQFQ7R2rIyJojg/company-logo_200_200/company-logo_200_200/0/1645110724870/inginit_logo?e=2147483647&v=beta&t=8jzjbLWexKiPvFvekUsw2TCQG2-t9140jEkrfykQPnA" alt="Company Logo">
-                    </div>
-                    <div>
-                        <h3 class="job-title text-xl font-semibold text-gray-800">Research Analyst</h3>
-                        <p class="company-name text-gray-600">
-  <a href="https://in.linkedin.com/company/inginit"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="text-blue-600 hover:underline font-medium">
-     Inginit Technology
-  </a>
-  @ Mumbai (Remote)
-</p>
-                    </div>
-                </div>
-                <p class="job-duration text-sm text-gray-500 mb-2">Mar 2023 - Present</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li>Managed the entire project lifecycle for quantitative and qualitative research studies, partnering with senior team members.</li>
-                    <li>Analyzed and interpreted survey results, collaborating on client-ready reports and presentations.</li>
-                    <li>Utilized statistical software (SPSS) and Microsoft Excel for in-depth data analysis and visualization.</li>
-                    <li>Assisted and led training sessions for new team members.</li>
-                </ul>
             </div>
 
-            <!-- Experience Item 2: Suntara Cosmetics Pvt Ltd. -->
-            <div class="experience-item border-b border-gray-200 pb-6 mb-6 last:border-b-0 last:pb-0 last:mb-0">
-                <div class="flex items-start space-x-4 mb-2">
-                    <div class="relative group">
-                        <!-- Replace the placeholder image URL with the company logo -->
-                        <img class="company-logo rounded-full w-10 h-10" src="https://media.licdn.com/dms/image/v2/C4E0BAQFTfcb2k5LFjA/company-logo_200_200/company-logo_200_200/0/1631371533647/suntara_cosmetics_private_limited_logo?e=2147483647&v=beta&t=-CrXDSBADbiFaF6Eg2QARTT9njE6UXzeOnHAR_NsrsU" alt="Company Logo">
-                    </div>
-                    <div>
-                        <h3 class="job-title text-xl font-semibold text-gray-800">MIS/Sales Analyst</h3>
-                        <p class="company-name text-gray-600">
-  <a href="https://in.linkedin.com/company/suntara-cosmetics-private-limited"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="text-blue-600 hover:underline font-medium">
-     Suntara Cosmetics Pvt Ltd
-  </a>
-  @ Ahmedabad (Onsite/Hybrid)
-</p>
-                    </div>
-                </div>
-                <p class="job-duration text-sm text-gray-500 mb-2">Nov 2022 - Mar 2023 (Full Time) & Apr 2022 - Jul 2023 (Part Time)</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li>Analyzed and interpreted sales data using advanced Excel and Power BI skills.</li>
-                    <li>Created visually appealing and interactive dashboards to enhance understanding of Accounts Receivable reports.</li>
-                    <li>Managed monthly databases and prepared presentations on sales and marketing reports.</li>
-                </ul>
-            </div>
+          </div>
 
-            <!-- Experience Item 3: NielsenIQ -->
-            <div class="experience-item border-b border-gray-200 pb-6 mb-6 last:border-b-0 last:pb-0 last:mb-0">
-                <div class="flex items-start space-x-4 mb-2">
-                    <div class="relative group">
-                        <!-- Replace the placeholder image URL with the company logo -->
-                        <img class="company-logo rounded-full w-10 h-10" src="https://media.licdn.com/dms/image/v2/D560BAQFYnX3PRbPkfw/company-logo_200_200/company-logo_200_200/0/1718743296595/nielseniq_logo?e=2147483647&v=beta&t=qsKkCTnibwRKrH0vmzsvOj5eskwL-fLuFzD-h3EL3ls" alt="Company Logo">
-                    </div>
-                    <div>
-                        <h3 class="job-title text-xl font-semibold text-gray-800">Data Processing Specialist</h3>
-                        <p class="company-name text-gray-600">
-  <a href="https://www.linkedin.com/company/nielseniq/"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="text-blue-600 hover:underline font-medium">
-     NielsenIQ
-  </a>
-  @ Vadodara (Hybrid)
-</p>
-                    </div>
-                </div>
-                <p class="job-duration text-sm text-gray-500 mb-2">Sep 2020 - Mar 2022</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li>Processed Fast-Moving Consumer Goods (FMCG) data in collaboration with an international team.</li>
-                    <li>Developed Key Performance Indicator (KPI) reports for daily workload progress using Power BI.</li>
-                    <li>Received the NOC Star Award (July 2021) for exceptional coding accuracy and accountability.</li>
-                </ul>
-            </div>
         </div>
 
-        <!-- Education Section -->
-        <div id="education-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-6">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Education</h2>
-            
-            <!-- Education Item 1: MSc -->
-            <div class="education-item flex items-start space-x-4 mb-4">
-                <div class="relative group">
-                    <!-- Replace the placeholder image URL with the school logo -->
-                    <img class="school-logo rounded-full w-10 h-10" src="https://media.licdn.com/dms/image/v2/C4D0BAQFO-BHBuDhZKw/company-logo_200_200/company-logo_200_200/0/1669369004090?e=2147483647&v=beta&t=H3r1rtFcqjcPaDpAxgkyJBcsnf_hXC0TswwB2OM5aRU" alt="University Logo">
-                </div>
-                <div>
-                    <h3 class="degree text-xl font-semibold text-gray-800">
-  <a href="https://www.gujaratuniversity.ac.in/"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="text-blue-600 hover:underline">
-     Gujarat University
-  </a>
-</h3>
-                    <p class="program text-gray-600">Master of Science - MSc, Statistics</p>
-                    <p class="education-duration text-sm text-gray-500">2018 - 2020</p>
-                </div>
+      </div>
+
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="mb-10">
+
+      <div class="mb-8">
+
+        <p class="uppercase tracking-[0.15em] text-sm text-blue-600 font-semibold mb-3">
+          Portfolio
+        </p>
+
+        <h2 class="section-title mb-3">
+          Featured Work
+        </h2>
+
+        <p class="text-gray-500 max-w-2xl">
+          Selected research and analytics projects showcasing customer insight generation, strategic thinking, and business storytelling.
+        </p>
+
+      </div>
+
+      <!-- FEATURED PROJECT -->
+      <div class="glass-card rounded-[32px] overflow-hidden mb-8">
+
+        <div class="grid lg:grid-cols-2">
+
+          <!-- IMAGE -->
+          <a href="https://drive.google.com/file/d/18cCI8KScGKVH6_y9wqfz3x-VGZwWsg3K/view?usp=sharing"
+             target="_blank"
+             class="relative group overflow-hidden">
+
+            <img
+              src="starbucks-csat-cover.jpg"
+              alt="Starbucks CSAT Report"
+              class="w-full h-full min-h-[500px] object-cover group-hover:scale-105 transition-custom duration-500"
+            >
+
+            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-custom flex items-center justify-center">
+
+              <span class="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-custom">
+                View Full Case Study →
+              </span>
+
             </div>
 
-            <!-- Education Item 2: BSc -->
-            <div class="education-item flex items-start space-x-4">
-                <div class="relative group">
-                    <!-- Replace the placeholder image URL with the school logo -->
-                    <img class="school-logo rounded-full w-10 h-10" src="https://media.licdn.com/dms/image/v2/C4D0BAQFO-BHBuDhZKw/company-logo_200_200/company-logo_200_200/0/1669369004090?e=2147483647&v=beta&t=H3r1rtFcqjcPaDpAxgkyJBcsnf_hXC0TswwB2OM5aRU" alt="University Logo">
-                </div>
-                <div>
-                    <h3 class="degree text-xl font-semibold text-gray-800">
-  <a href="https://www.gujaratuniversity.ac.in/"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="text-blue-600 hover:underline">
-     Gujarat University
-  </a>
-</h3>
-                    <p class="program text-gray-600">Bachelor of Science - BSc, Statistics</p>
-                    <p class="education-duration text-sm text-gray-500">2015 - 2018</p>
-                </div>
+          </a>
+
+          <!-- CONTENT -->
+          <div class="p-8 md:p-12">
+
+            <div class="mb-5">
+
+              <span class="bg-blue-100 text-blue-700 text-xs font-bold px-4 py-2 rounded-full">
+                Featured Research Project
+              </span>
+
             </div>
+
+            <h3 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
+              Starbucks Customer Satisfaction (CSAT) Survey
+            </h3>
+
+            <p class="text-gray-500 mb-8">
+              Consumer Research • Malaysia • Quantitative Survey Analysis
+            </p>
+
+            <div class="space-y-7 text-gray-700">
+
+              <div>
+
+                <h4 class="font-semibold text-lg mb-2">
+                  Objective
+                </h4>
+
+                <p class="leading-relaxed">
+                  Analyze customer buying behavior, revisit intent, satisfaction drivers, and promotional effectiveness at Starbucks outlets.
+                </p>
+
+              </div>
+
+              <div>
+
+                <h4 class="font-semibold text-lg mb-2">
+                  Key Findings
+                </h4>
+
+                <ul class="list-disc list-inside space-y-2">
+
+                  <li>77% customers showed intent to repurchase</li>
+                  <li>Price sensitivity identified as key churn driver</li>
+                  <li>Social media emerged as strongest promotional channel</li>
+                  <li>Most customers spent below RM20 per visit</li>
+
+                </ul>
+
+              </div>
+
+              <div>
+
+                <h4 class="font-semibold text-lg mb-3">
+                  Tools Used
+                </h4>
+
+                <div class="flex flex-wrap gap-3">
+
+                  <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Excel</span>
+                  <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Statistical Analysis</span>
+                  <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">PowerPoint</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="mt-10">
+
+              <a href="https://drive.google.com/file/d/18cCI8KScGKVH6_y9wqfz3x-VGZwWsg3K/view?usp=sharing"
+                 target="_blank"
+                 class="inline-flex items-center bg-gray-900 text-white px-7 py-4 rounded-2xl font-semibold hover:scale-105 transition-custom">
+                 View Full PDF
+              </a>
+
+            </div>
+
+          </div>
+
         </div>
 
-        <!-- Skills & Tools Section -->
-        <div id="skills-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-6">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Skills & Tools</h2>
-            <div class="mb-4">
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Key Competencies</h3>
-                <div class="flex flex-wrap gap-2">
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Data Analysis</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Data Visualization</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Client Relationships</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Customer Insights</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Quantitative & Qualitative Research</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Market Research</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Team Leadership</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Communication</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Prompt Engineering</span>
-                </div>
-            </div>
+      </div>
+
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="glass-card rounded-[32px] p-8 md:p-12 mb-10">
+
+      <div class="mb-10">
+
+        <p class="uppercase tracking-[0.15em] text-sm text-blue-600 font-semibold mb-3">
+          Expertise
+        </p>
+
+        <h2 class="section-title">
+          Core Capabilities
+        </h2>
+
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <!-- BLOCK -->
+        <div>
+
+          <h3 class="text-2xl font-bold mb-5">
+            Research & Insights
+          </h3>
+
+          <div class="flex flex-wrap gap-3">
+
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Quantitative Research</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Qualitative Research Support</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Questionnaire Design</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Consumer Insights</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Survey Analytics</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Insight Storytelling</span>
+
+          </div>
+
+        </div>
+
+        <!-- BLOCK -->
+        <div>
+
+          <h3 class="text-2xl font-bold mb-5">
+            Analytics & Platforms
+          </h3>
+
+          <div class="flex flex-wrap gap-3">
+
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Qualtrics</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">DisplayR</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">SPSS</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Power BI</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Advanced Excel</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">PowerPoint</span>
+
+          </div>
+
+        </div>
+
+        <!-- BLOCK -->
+        <div>
+
+          <h3 class="text-2xl font-bold mb-5">
+            Strategic & AI Research
+          </h3>
+
+          <div class="flex flex-wrap gap-3">
+
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">AI-Native Research</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Knit AI Platform</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">GenAI Tools</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Stakeholder Management</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Multi-project Management</span>
+            <span class="bg-gray-100 px-4 py-2 rounded-full text-sm">Research Operations</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="glass-card rounded-[32px] p-8 md:p-12 mb-10">
+
+      <div class="mb-10">
+
+        <p class="uppercase tracking-[0.15em] text-sm text-blue-600 font-semibold mb-3">
+          Experience
+        </p>
+
+        <h2 class="section-title">
+          Professional Experience
+        </h2>
+
+      </div>
+
+      <div class="space-y-14">
+
+        <!-- EXPERIENCE 1 -->
+        <div>
+
+          <div class="flex items-start gap-5">
+
+            <img
+              src="https://media.licdn.com/dms/image/v2/C4D0BAQFQ7R2rIyJojg/company-logo_200_200/company-logo_200_200/0/1645110724870/inginit_logo"
+              class="w-14 h-14 rounded-2xl"
+              alt=""
+            >
+
             <div>
-                <h3 class="text-xl font-semibold text-gray-800 mb-2">Tools</h3>
-                <div class="flex flex-wrap gap-2">
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Microsoft Excel</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">SPSS</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Microsoft Power BI</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Microsoft PowerPoint</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">Canva</span>
-                    <span class="skill-tag bg-gray-200 text-gray-800 px-4 py-1 rounded-full font-medium text-sm">GenAI Tools (ChatGPT, Claude, Gemini)</span>
-                </div>
+
+              <h3 class="text-2xl font-bold mb-1">
+                Market Research Consultant — deployed at Knit
+              </h3>
+
+              <p class="text-gray-600 mb-3">
+
+                <a href="https://in.linkedin.com/company/inginit"
+                   target="_blank"
+                   class="text-blue-600 hover:underline font-medium">
+                   Inginit Technology
+                </a>
+
+                • Remote • Apr 2025 – Present
+
+              </p>
+
+              <ul class="list-disc list-inside text-gray-700 space-y-2 leading-relaxed">
+
+                <li>Independently manage end-to-end quantitative research projects for global clients.</li>
+
+                <li>Design and program surveys in Qualtrics while overseeing fieldwork coordination and data validation.</li>
+
+                <li>Generate stakeholder-ready insight presentations using AI-native research workflows.</li>
+
+                <li>Support qualitative research through thematic analysis and discussion guide coordination.</li>
+
+              </ul>
+
             </div>
+
+          </div>
+
         </div>
 
-        <!-- Certificates & Trainings Section -->
-        <div id="cert-section" class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Certificates & Trainings</h2>
-            <div class="list-disc list-inside space-y-2 text-gray-700">
-                <p>
-  <strong>
-    <a href="https://www.coursera.org/account/accomplishments/verify/7RC9S8KAAPRD"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="text-blue-600 hover:underline">
-       GenAI for Market Research
-    </a>
-  </strong>
-  – Coursera Online Learning Platform (2026)
-</p>
-                 <p>
-  <strong>
-    <a href="https://coursera.org/verify/specialization/4ZI4CJ8247PC"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="text-blue-600 hover:underline">
-       Market Research
-    </a>
-  </strong>
-  – University of California, Davis (2026)
-</p>
-                <p><strong>Data Analysis with Python</strong> - Coursera Online Learning Platform (2020)</p>
-                <p><strong>Artificial Intelligence & Machine Learning using R</strong> - FingerTips Data Science Company (2019)</p>
-                <p><strong>Research Data and Statistical Analysis using R Programming</strong> - INFLIBNET Centre, India (2018)</p>
+        <!-- EXPERIENCE 2 -->
+        <div>
+
+          <div class="flex items-start gap-5">
+
+            <img
+              src="https://media.licdn.com/dms/image/v2/C4D0BAQFQ7R2rIyJojg/company-logo_200_200/company-logo_200_200/0/1645110724870/inginit_logo"
+              class="w-14 h-14 rounded-2xl"
+              alt=""
+            >
+
+            <div>
+
+              <h3 class="text-2xl font-bold mb-1">
+                Research Analyst
+              </h3>
+
+              <p class="text-gray-600 mb-3">
+
+                <a href="https://in.linkedin.com/company/inginit"
+                   target="_blank"
+                   class="text-blue-600 hover:underline font-medium">
+                   Inginit Technology
+                </a>
+
+                • Remote • Mar 2023 – Present
+
+              </p>
+
+              <ul class="list-disc list-inside text-gray-700 space-y-2 leading-relaxed">
+
+                <li>Managed full lifecycle quantitative and qualitative research studies.</li>
+
+                <li>Analyzed survey data and created client-ready reports and business recommendations.</li>
+
+                <li>Performed cross-tab analysis using SPSS and Excel.</li>
+
+                <li>Mentored junior team members on research execution standards.</li>
+
+              </ul>
+
             </div>
+
+          </div>
+
         </div>
-    </div>
+
+        <!-- EXPERIENCE 3 -->
+        <div>
+
+          <div class="flex items-start gap-5">
+
+            <img
+              src="https://media.licdn.com/dms/image/v2/C4E0BAQFTfcb2k5LFjA/company-logo_200_200/company-logo_200_200/0/1631371533647/suntara_cosmetics_private_limited_logo"
+              class="w-14 h-14 rounded-2xl"
+              alt=""
+            >
+
+            <div>
+
+              <h3 class="text-2xl font-bold mb-1">
+                MIS / Sales Analyst
+              </h3>
+
+              <p class="text-gray-600 mb-3">
+
+                <a href="https://www.linkedin.com/company/suntara-cosmetics-pvt-ltd/"
+                   target="_blank"
+                   class="text-blue-600 hover:underline font-medium">
+                   Suntara Cosmetics Pvt Ltd
+                </a>
+
+                • Ahmedabad • Nov 2022 – Mar 2023
+
+              </p>
+
+              <ul class="list-disc list-inside text-gray-700 space-y-2 leading-relaxed">
+
+                <li>Built Power BI dashboards for sales and accounts receivable reporting.</li>
+
+                <li>Performed advanced Excel-based sales analysis and KPI tracking.</li>
+
+                <li>Prepared executive-ready business presentations for sales and marketing teams.</li>
+
+                <li>Improved reporting visibility through structured data visualization.</li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- EXPERIENCE 4 -->
+        <div>
+
+          <div class="flex items-start gap-5">
+
+            <img
+              src="https://media.licdn.com/dms/image/v2/D560BAQFYnX3PRbPkfw/company-logo_200_200/company-logo_200_200/0/1718743296595/nielseniq_logo"
+              class="w-14 h-14 rounded-2xl"
+              alt=""
+            >
+
+            <div>
+
+              <h3 class="text-2xl font-bold mb-1">
+                Data Processing Specialist
+              </h3>
+
+              <p class="text-gray-600 mb-3">
+
+                <a href="https://www.linkedin.com/company/nielseniq/"
+                   target="_blank"
+                   class="text-blue-600 hover:underline font-medium">
+                   NielsenIQ
+                </a>
+
+                • Hybrid • Sep 2020 – Mar 2022
+
+              </p>
+
+              <ul class="list-disc list-inside text-gray-700 space-y-2 leading-relaxed">
+
+                <li>Processed and validated large-scale FMCG datasets.</li>
+
+                <li>Created Power BI dashboards for operational KPI monitoring.</li>
+
+                <li>Collaborated with international teams to maintain data quality standards.</li>
+
+                <li>Received NOC Star Award for coding accuracy and accountability.</li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="glass-card rounded-[32px] p-10 md:p-14 text-center">
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-5">
+        Let’s Connect
+      </h2>
+
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-10">
+        Open to consumer insights, market research, analytics, dashboarding, and strategic research opportunities.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+
+        <a href="mailto:mrzolapara@gmail.com"
+           class="bg-gray-900 text-white px-7 py-4 rounded-2xl font-semibold hover:scale-105 transition-custom">
+           Email Me
+        </a>
+
+        <a href="https://www.linkedin.com/in/mrzolapara/"
+           target="_blank"
+           class="bg-[#0A66C2] text-white px-7 py-4 rounded-2xl font-semibold hover:opacity-90 transition-custom">
+           LinkedIn
+        </a>
+
+      </div>
+
+    </section>
+
+  </div>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
